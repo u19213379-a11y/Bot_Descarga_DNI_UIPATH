@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="m49_L-GRYkSOKfKnQ20YJA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="web.telegram.org/k" DesignTimeRectangle="179, 173, 1893, 843" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='column-center' tag='DIV' /&gt;" Guid="7ba56ea6-38ca-49d9-9aee-967f285b0bcd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telegram Web' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="04398ba3934dafe4b2ea1afbc2fd2fac.jpg" xmlns="">0iPC-ibaZbU2lbUt6f1NLvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">FindElements</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3asbsPU1DEmpkBuRDckJqw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="web.telegram.org/k" DesignTimeRectangle="815, 158, 33, 33" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='' tag='BUTTON' type='' class='btn-icon quality-download-options-button-menu btn-menu-toggle' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='' /&gt;" Guid="0d1f4daf-55c3-4e5e-8fec-bdf85f05e85a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telegram Web' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="821, 164, 20, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='' tag='SPAN' type='' class='tgico button-icon' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='' /&gt;" Guid="9d3ee97d-b0d5-49d1-8ec3-ac860903f2c8" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2867bb2bfff3ee79aad4a04818ff27af.jpg" xmlns="">0lYUvdezDsU2olYFct56_Ig</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Telegram Web",
+  "Type": "Screen",
+  "Id": "e13-1L7pOEyKy-DYhQsNkQ",
+  "Reference": "qPhXyZnt_Eq03kDHWdhFPA/e13-1L7pOEyKy-DYhQsNkQ",
+  "ParentRef": "qPhXyZnt_Eq03kDHWdhFPA/mCSpxcNYzkaCerpS1-LsMQ",
+  "Created": "2026-07-23T01:56:08.9774833Z",
+  "Updated": "2026-07-23T01:56:08.9774833Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

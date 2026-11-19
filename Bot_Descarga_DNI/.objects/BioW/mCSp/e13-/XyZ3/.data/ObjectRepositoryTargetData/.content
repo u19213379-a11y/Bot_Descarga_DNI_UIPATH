@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FdWQfLO5yUayp1I3-IlqWA" Reference="qPhXyZnt_Eq03kDHWdhFPA/XyZ3lZnY6Ue3J9XjXreWQg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="web.telegram.org/k" DesignTimeRectangle="0, 0, 1938, 1038" ElementType="Icon" ElementVisibilityArgument="Interactive" Guid="33e6fdb6-4dc4-4e17-a24f-b0ffaad2bdc2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telegram Web' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c6aa00c92ad275ce28c535f2e2f00b1f.jpg" xmlns="">0AHyV_vIRlkGcK7_-xbnPXQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

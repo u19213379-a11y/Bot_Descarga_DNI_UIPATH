@@ -1,0 +1,436 @@
+<!-- PORTFOLIO PUBLIC VERSION: URLs, IDs, screenshots and personal data from the real environment were intentionally redacted. See README.md and PORTFOLIO_NOTICE.md. -->
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.GSuite.Activities.Sheets.Enums</x:String>
+      <x:String>UiPath.GSuite.Activities.Models</x:String>
+      <x:String>UiPath.GSuite.Sheets.Enums</x:String>
+      <x:String>UiPath.GSuite.Sheets.Models</x:String>
+      <x:String>UiPath.GSuite.Activities.Drive.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.GSuite.Drive.Models</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.GSuite.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Windows</x:String>
+      <x:String>System.Windows.Media.Animation</x:String>
+      <x:String>System.Windows.Media</x:String>
+      <x:String>System.Windows.Threading</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Windows.Presentation</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="914.8000000000001,6494.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="archivoDescargado" />
+      <Variable x:TypeArguments="x:String" Default="[Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) &amp; &quot;\Downloads&quot;]" Name="carpetaDescargas" />
+      <Variable x:TypeArguments="x:String" Default="[Environment.GetFolderPath(Environment.SpecialFolder.Desktop) &amp; &quot;\DNI_PENDIENTES_ORGANIZAR&quot;]" Name="carpetaDestino" />
+      <Variable x:TypeArguments="x:String" Name="dni" />
+      <Variable x:TypeArguments="x:Int32" Default="487" Name="ultimaFila" />
+      <Variable x:TypeArguments="x:Int32" Name="filaActual">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Int32" Value="485" />
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[filaActual &lt;= ultimaFila]" DisplayName="While" sap:VirtualizedContainerService.HintSize="486.4,6471.2" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+      <ui:InterruptibleWhile.Body>
+        <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="484.8,6349.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome CONSIGNATARIOS FOTOS.xlsx - Hojas de c" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,1130.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="9cf80b1d-81ed-4b76-93c2-3367c941eb06" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="449.6,927.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'A1'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="9cf80b1d-81ed-4b76-93c2-3367c941eb06" Text="[string.Format(&quot;{0}[k(enter)]&quot;, &quot;A&quot; &amp; filaActual.ToString)]" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="docs.google.com/spreadsheets/d/REDACTED_GOOGLE_SHEET_ID/edit" ContentHash="9dmL-wnyj0auTLGzuopOJQ" DesignTimeRectangle="17, 277, 74, 19" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' type='text' /&gt;" Guid="3a7efbfd-7001-44ef-81aa-32eba04c33c2" InformativeScreenshot="37417a16842a1374f636a9b7ea362bf1.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/J8yhMiivkEGTa1GC3E_FhQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CONSIGNATARIOS FOTOS.xlsx - Hojas de cálculo de Google' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <Delay DisplayName="Retraso" Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,122.4" sap2010:WorkflowViewState.IdRef="Delay_6" />
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado 'DIV(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,328.8" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" InteractionMode="HardwareEvents" ScopeIdentifier="9cf80b1d-81ed-4b76-93c2-3367c941eb06" Shortcuts="[d(hk)][d(ctrl)]c[u(ctrl)][u(hk)]" Version="V5">
+                    <uix:NKeyboardShortcuts.Target>
+                      <uix:TargetAnchorable BrowserURL="docs.google.com/spreadsheets/d/REDACTED_GOOGLE_SHEET_ID/edit" ContentHash="dKdCQLHjeE-G8obnk41CTA" DesignTimeRectangle="95, 524, 745, 402" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='37' tag='DIV' /&gt;" Guid="06427c94-973d-43e7-a3a2-b23e9190ff8c" InformativeScreenshot="2fae90c61f9528c12c48daf5170f2022.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/p2dd9RQXlUyp9ohv_CqKGQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CONSIGNATARIOS FOTOS.xlsx - Hojas de cálculo de Google' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NKeyboardShortcuts.Target>
+                  </uix:NKeyboardShortcuts>
+                  <Delay DisplayName="Retraso" Duration="00:00:01.5000000" sap:VirtualizedContainerService.HintSize="416,122.4" sap2010:WorkflowViewState.IdRef="Delay_13" />
+                  <ui:GetFromClipboard TimeoutMS="{x:Null}" DisplayName="Obtener a partir del portapapeles" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="GetFromClipboard_1">
+                    <ui:GetFromClipboard.Result>
+                      <OutArgument x:TypeArguments="x:String">[dni]</OutArgument>
+                    </ui:GetFromClipboard.Result>
+                  </ui:GetFromClipboard>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.OCREngine>
+              <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                <ActivityFunc.Argument>
+                  <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                </ActivityFunc.Argument>
+              </ActivityFunc>
+            </uix:NApplicationCard.OCREngine>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="KxiQK6KKKEKrC1PRdWMp1g" IconBase64="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" InformativeScreenshot="ae3e5b5ced34b49a61fe016936914027.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/2hF-Fc3-kEiirbX19iYz5w" Selector="&lt;html app='chrome.exe' title='CONSIGNATARIOS FOTOS.xlsx - Hojas de cálculo de Google' /&gt;" Url="https://docs.google.com/spreadsheets/d/REDACTED_GOOGLE_SHEET_ID/edit?gid=294505487#gid=294505487" Version="V3">
+                <uix:TargetApp.Arguments>
+                  <InArgument x:TypeArguments="x:String" />
+                </uix:TargetApp.Arguments>
+                <uix:TargetApp.WorkingDirectory>
+                  <InArgument x:TypeArguments="x:String" />
+                </uix:TargetApp.WorkingDirectory>
+              </uix:TargetApp>
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Telegram Web" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,4042.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="13bc64a8-efe9-4a9e-aaf1-5cc811469fbd" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="449.6,3839.2" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="ui:UiElement" Name="imagenTrasera" />
+                    <Variable x:TypeArguments="ui:UiElement" Name="imagenFrente" />
+                    <Variable x:TypeArguments="scg:IEnumerable(ui:UiElement)" Name="imagenesTelegram" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'DIV'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="13bc64a8-efe9-4a9e-aaf1-5cc811469fbd" Text="[string.Format(&quot;{0}[k(enter)]&quot;, &quot;/dniv &quot; &amp; dni.Trim())]" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="web.telegram.org/k" ContentHash="nNFwAWcaAkKbxiXnmCAj1A" DesignTimeRectangle="882, 956, 632, 46" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl isleaf='1' parentid='column-center' tabindex='-1' tag='DIV' /&gt;" Guid="7a1d2670-636c-46d5-8894-07c9c01ecbb8" InformativeScreenshot="a7698d92b25206debfe6ae138c59c357.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/ED1-sEYP6UGd4NLTPxTRfQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telegram Web' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <Delay DisplayName="Retraso" Duration="00:00:08" sap:VirtualizedContainerService.HintSize="416,122.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                  <uix:NFindElements Children="[imagenesTelegram]" DisplayName="Buscar elementos ' Search Never miss …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246.4" sap2010:WorkflowViewState.IdRef="NFindElements_1" Mode="FindDescendants" ScopeIdentifier="13bc64a8-efe9-4a9e-aaf1-5cc811469fbd" Version="V5">
+                    <uix:NFindElements.FilterTarget>
+                      <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" FuzzySelectorArgument="&lt;webctrl class='media-photo' parentid='column-center' /&gt;" Guid="9d4180ca-9bf8-4d8e-b48a-aa7be9e1254c" SearchSteps="FuzzySelector" />
+                    </uix:NFindElements.FilterTarget>
+                    <uix:NFindElements.Target>
+                      <uix:TargetAnchorable BrowserURL="web.telegram.org/k" ContentHash="m49_L-GRYkSOKfKnQ20YJA" DesignTimeRectangle="179, 173, 1893, 843" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='column-center' tag='DIV' /&gt;" Guid="7ba56ea6-38ca-49d9-9aee-967f285b0bcd" InformativeScreenshot="04398ba3934dafe4b2ea1afbc2fd2fac.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/Yd6gV69YBUKxfn0AgafPBQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telegram Web' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NFindElements.Target>
+                  </uix:NFindElements>
+                  <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="Assign_6">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="ui:UiElement">[imagenFrente]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="ui:UiElement" xml:space="preserve">[CType(
+    imagenesTelegram.ElementAt(imagenesTelegram.Count() - 2),
+    UiPath.Core.UiElement
+)]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="Assign_7">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="ui:UiElement">[imagenTrasera]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="ui:UiElement" xml:space="preserve">[CType(
+    imagenesTelegram.ElementAt(imagenesTelegram.Count() - 1),
+    UiPath.Core.UiElement
+)]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'IMG'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,230.4" sap2010:WorkflowViewState.IdRef="NClick_1" InUiElement="[imagenFrente]" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13bc64a8-efe9-4a9e-aaf1-5cc811469fbd" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="web.telegram.org/k" DesignTimeRectangle="356, 299, 348, 174" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='media-photo' parentid='column-center' src='blob:https://web.telegram.org/REDACTED_SESSION' tag='IMG' /&gt;" Guid="7e242efc-842f-4922-aef7-48b74afaf962" InformativeScreenshot="8f3429eb2b6b9e65fb992928fbfecd2a.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telegram Web' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <Delay DisplayName="Retraso" Duration="00:00:04" sap:VirtualizedContainerService.HintSize="416,122.4" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Botón'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13bc64a8-efe9-4a9e-aaf1-5cc811469fbd" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="web.telegram.org/k" ContentHash="ZzVzm3t-uU6s1mZAp59GQg" DesignTimeRectangle="853, 156, 25, 25" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='' tag='BUTTON' /&gt;" Guid="43b7fcdf-3949-43f9-961a-eb085da3896a" InformativeScreenshot="311305c013da0b620d214136f1aac565.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/w7YgtLHit0qyHAIyZgngfQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telegram Web' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NClick>
+                  <Delay DisplayName="Retraso" Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,122.4" sap2010:WorkflowViewState.IdRef="Delay_11" />
+                  <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="Assign_3">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[archivoDescargado]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">[System.IO.Directory.GetFiles(carpetaDescargas, "*.jpg").OrderByDescending(Function(f) System.IO.File.GetLastWriteTime(f)).First()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[System.IO.Path.Combine(&#xA;    carpetaDestino,&#xA;    filaActual.ToString(&quot;D5&quot;) &amp; &quot;_&quot; &amp; dni.Trim() &amp; &quot;_FRENTE.jpg&quot;&#xA;)]" DisplayName="Mover archivo" sap:VirtualizedContainerService.HintSize="416,192" sap2010:WorkflowViewState.IdRef="MoveFile_1" Overwrite="True" Path="[archivoDescargado]" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Botón(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13bc64a8-efe9-4a9e-aaf1-5cc811469fbd" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="web.telegram.org/k" ContentHash="eiDmgjRzgUellD_SupK0DQ" DesignTimeRectangle="925, 158, 33, 33" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='' class='btn-icon' tag='BUTTON' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='' /&gt;" Guid="6a84e074-7ad6-4ff6-b08b-cbe86b993c6e" InformativeScreenshot="3284543b463638fd677206b10fb8d7a6.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/-3CVKNKdz06I038mWtttAw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telegram Web' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="931, 164, 20, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='' type='' class='tgico button-icon' tag='SPAN' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='' /&gt;" Guid="5451485e-d317-4361-9298-70f36901054d" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <Delay DisplayName="Retraso" Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,122.4" sap2010:WorkflowViewState.IdRef="Delay_14" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'IMG(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,230.4" sap2010:WorkflowViewState.IdRef="NClick_11" InUiElement="[imagenTrasera]" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13bc64a8-efe9-4a9e-aaf1-5cc811469fbd" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="web.telegram.org/k" ContentHash="IbC6uZ1uIkOg4_fms-arnA" DesignTimeRectangle="356, 474, 348, 174" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='media-photo' idx='4' parentid='column-center' src='blob:https://web.telegram.org/REDACTED_SESSION' tag='IMG' /&gt;" Guid="2a1fa987-8a48-4860-afcf-f1f8f02d6858" InformativeScreenshot="c9b23f8299e55027b3bd0fb0864e132c.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/Q5c1oe1KJUmKs_C3if7Cjg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telegram Web' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <Delay DisplayName="Retraso" Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,122.4" sap2010:WorkflowViewState.IdRef="Delay_15" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Botón(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13bc64a8-efe9-4a9e-aaf1-5cc811469fbd" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="web.telegram.org/k" ContentHash="3asbsPU1DEmpkBuRDckJqw" DesignTimeRectangle="815, 158, 33, 33" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='' tag='BUTTON' type='' class='btn-icon quality-download-options-button-menu btn-menu-toggle' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='' /&gt;" Guid="0d1f4daf-55c3-4e5e-8fec-bdf85f05e85a" InformativeScreenshot="2867bb2bfff3ee79aad4a04818ff27af.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/NPa3JVELG0qairKM7yOVbQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telegram Web' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="821, 164, 20, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='' tag='SPAN' type='' class='tgico button-icon' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='' /&gt;" Guid="9d3ee97d-b0d5-49d1-8ec3-ac860903f2c8" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,122.4" sap2010:WorkflowViewState.IdRef="Delay_16" />
+                  <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="Assign_4">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[archivoDescargado]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">[System.IO.Directory.GetFiles(carpetaDescargas, "*.jpg").OrderByDescending(Function(f) System.IO.File.GetLastWriteTime(f)).First()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[System.IO.Path.Combine(&#xA;    carpetaDestino,&#xA;    filaActual.ToString(&quot;D5&quot;) &amp; &quot;_&quot; &amp; dni.Trim() &amp; &quot;_TRASERA.jpg&quot;&#xA;)]" DisplayName="Mover archivo" sap:VirtualizedContainerService.HintSize="416,192" sap2010:WorkflowViewState.IdRef="MoveFile_2" Overwrite="True" Path="[archivoDescargado]" />
+                  <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="416,122.4" sap2010:WorkflowViewState.IdRef="Delay_17" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Botón(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13bc64a8-efe9-4a9e-aaf1-5cc811469fbd" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="web.telegram.org/k" ContentHash="eiDmgjRzgUellD_SupK0DQ" DesignTimeRectangle="925, 158, 33, 33" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='' class='btn-icon' tag='BUTTON' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='' /&gt;" Guid="6a84e074-7ad6-4ff6-b08b-cbe86b993c6e" InformativeScreenshot="3284543b463638fd677206b10fb8d7a6.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/-3CVKNKdz06I038mWtttAw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telegram Web' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="931, 164, 20, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='' type='' class='tgico button-icon' tag='SPAN' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='' /&gt;" Guid="5451485e-d317-4361-9298-70f36901054d" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="416,113.6" sap2010:WorkflowViewState.IdRef="Delay_19" />
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.OCREngine>
+              <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                <ActivityFunc.Argument>
+                  <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                </ActivityFunc.Argument>
+              </ActivityFunc>
+            </uix:NApplicationCard.OCREngine>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="0lXmnAbkZEyqScl3klMkiQ" IconBase64="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" InformativeScreenshot="12b9011147ccd7b523c7e3a93667587f.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/e13-1L7pOEyKy-DYhQsNkQ" Selector="&lt;html app='chrome.exe' title='Telegram Web' /&gt;" Url="https://web.telegram.org/k/#@PORTFOLIO_BOT" Version="V3">
+                <uix:TargetApp.Arguments>
+                  <InArgument x:TypeArguments="x:String" />
+                </uix:TargetApp.Arguments>
+                <uix:TargetApp.WorkingDirectory>
+                  <InArgument x:TypeArguments="x:String" />
+                </uix:TargetApp.WorkingDirectory>
+              </uix:TargetApp>
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome CONSIGNATARIOS FOTOS.xlsx - Hojas de c" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,1116.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="77c6fa19-2d4b-4da4-909b-ff433308b301" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="449.6,922.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'A1'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="SameAsCard" ScopeIdentifier="77c6fa19-2d4b-4da4-909b-ff433308b301" Text="[String.Format(&quot;{0}[k(enter)]&quot;, &quot;B&quot; &amp; filaActual.ToString())]" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="docs.google.com/spreadsheets/d/REDACTED_GOOGLE_SHEET_ID/edit" ContentHash="9dmL-wnyj0auTLGzuopOJQ" DesignTimeRectangle="17, 277, 74, 19" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' type='text' /&gt;" Guid="3a7efbfd-7001-44ef-81aa-32eba04c33c2" InformativeScreenshot="37417a16842a1374f636a9b7ea362bf1.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/J8yhMiivkEGTa1GC3E_FhQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CONSIGNATARIOS FOTOS.xlsx - Hojas de cálculo de Google' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <Delay DisplayName="Retraso" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="416,122.4" sap2010:WorkflowViewState.IdRef="Delay_18" />
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado 'DIV(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,328.8" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" InteractionMode="HardwareEvents" ScopeIdentifier="77c6fa19-2d4b-4da4-909b-ff433308b301" Shortcuts="[d(hk)] [u(hk)]" Version="V5">
+                    <uix:NKeyboardShortcuts.Target>
+                      <uix:TargetAnchorable BrowserURL="docs.google.com/spreadsheets/d/REDACTED_GOOGLE_SHEET_ID/edit" ContentHash="DJ3N3J_s7ES6YAXay2Ovkg" DesignTimeRectangle="72, 425, 802, 527" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='43' tag='DIV' /&gt;" Guid="2dc8baf8-d01b-4aee-bbb2-951dddd42f54" InformativeScreenshot="1653f70f6c755bbaab2600386b869ba6.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/7cJehLETfkeQe0dnfjLqOw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CONSIGNATARIOS FOTOS.xlsx - Hojas de cálculo de Google' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NKeyboardShortcuts.Target>
+                  </uix:NKeyboardShortcuts>
+                  <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="Assign_5">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">[filaActual]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">[filaActual + 1]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.OCREngine>
+              <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                <ActivityFunc.Argument>
+                  <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                </ActivityFunc.Argument>
+              </ActivityFunc>
+            </uix:NApplicationCard.OCREngine>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="KxiQK6KKKEKrC1PRdWMp1g" IconBase64="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" InformativeScreenshot="ae3e5b5ced34b49a61fe016936914027.jpg" Reference="qPhXyZnt_Eq03kDHWdhFPA/2hF-Fc3-kEiirbX19iYz5w" Selector="&lt;html app='chrome.exe' title='CONSIGNATARIOS FOTOS.xlsx - Hojas de cálculo de Google' /&gt;" Url="https://docs.google.com/spreadsheets/d/REDACTED_GOOGLE_SHEET_ID/edit?gid=294505487#gid=294505487" Version="V3">
+                <uix:TargetApp.Arguments>
+                  <InArgument x:TypeArguments="x:String" />
+                </uix:TargetApp.Arguments>
+                <uix:TargetApp.WorkingDirectory>
+                  <InArgument x:TypeArguments="x:String" />
+                </uix:TargetApp.WorkingDirectory>
+              </uix:TargetApp>
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </ui:InterruptibleWhile.Body>
+    </ui:InterruptibleWhile>
+  </Sequence>
+</Activity>

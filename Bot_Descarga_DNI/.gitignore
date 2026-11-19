@@ -1,0 +1,15 @@
+# UiPath: datos locales, temporales o capturas del entorno real
+.local/
+.storage/
+.screenshots/
+
+# Archivos temporales del sistema/editor
+Thumbs.db
+.DS_Store
+*.user
+*.log
+
+# Datos de prueba o exportaciones locales
+Downloads/
+Output/
+Temp/

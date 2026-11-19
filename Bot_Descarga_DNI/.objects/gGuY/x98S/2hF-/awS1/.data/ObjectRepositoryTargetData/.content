@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9F6Sy-AB5UOUO53a8ZaqHA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="docs.google.com/spreadsheets/d/REDACTED_GOOGLE_SHEET_ID/edit" DesignTimeRectangle="61, 449, 1792, 523" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='70' tag='DIV' /&gt;" Guid="a29f310b-c3c6-493d-8b0e-f8fee639ee43" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CONSIGNATARIOS FOTOS.xlsx - Hojas de cálculo de Google' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="eb5166b0bc23d3744a90445a10eacfe8.jpg" xmlns="">00Q-pGmAvk0m_YrZV38HtAQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
